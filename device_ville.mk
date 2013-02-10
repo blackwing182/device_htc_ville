@@ -74,6 +74,13 @@ PRODUCT_PACKAGES += \
         CMFileManager \
         CellBroadcastReceiver
 
+# Live Wallpapers
+PRODUCT_PACKAGES += \
+	LiveWallpapers \
+	LiveWallpapersPicker \
+	VisualizationWallpapers \
+	librs_jni
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
